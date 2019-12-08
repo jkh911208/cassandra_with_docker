@@ -19,7 +19,7 @@ def main():
     CASSANDRA_DC = "tx"
     CASSANDRA_RACK = "rack1"
     CASSANDRA_CLUSTER_NAME = "cassandracluster"
-    CASSANDRA_SEEDS= "192.168.105.1"
+    CASSANDRA_SEEDS= "192.168.105.1,192.168.105.2,192.168.105.3"
     CASSANDRA_VERSION = "3.11.5"
 
     #build the docker run command
